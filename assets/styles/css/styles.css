@@ -1390,20 +1390,13 @@ html {
     border: 2px dotted black;
   }
 }
-body {
-  font-family: Amatic, Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
-  font-size: 40px;
-  background-color: #1f1f1f;
-}
 
 * {
   overflow-x: hidden;
 }
 
 .bgc-yellow, .button-yellow-lg, .btton-yellow-md, .btton-yellow-sm {
-  background-color: #fdd048;
-  color: #383838;
+  background-color: #e4d048;
 }
 
 .bgc-blue, .button-blue-lg {
@@ -1463,7 +1456,6 @@ body {
   }
 
   .bgc-lg-black {
-    background-color: #383838;
     color: white;
   }
 }

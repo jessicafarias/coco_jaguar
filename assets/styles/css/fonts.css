@@ -1,19 +1,25 @@
 @font-face {
-  font-family: 'Agnetha';
-  src: url(../fonts/Agnetha.ttf);
+  font-family: 'subtitle';
+  src: url(../fonts/subtitle.ttf);
   font-size: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Amatic';
-  src: url(../fonts/Amatic-Bold.ttf);
+  font-family: 'price';
+  src: url(../fonts/AGENCYR.TTF);
   font-size: normal;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Bromello';
-  src: url(../fonts/bromello-Regular.ttf);
+  font-family: 'description';
+  src: url(../fonts/description.TTF);
   font-size: normal;
+}
+@font-face {
+  font-family: 'Westhouse';
+  src: url(../fonts/Westhouse.ttf);
+  font-size: normal;
+  font-weight: normal;
 }

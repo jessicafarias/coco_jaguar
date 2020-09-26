@@ -1,8 +1,7 @@
 .body {
     background-image: url("../images/background.png");
-    background-size: cover;
-    color: rgba(209, 204, 204, 0.877);
-}
+    background-size: 100%;
+    width: 100%;}
 
 .white-color{
     color: white;
@@ -18,11 +17,87 @@
 }
 
 .bgc-black {
-    background-color: #010101;
+    /*background-color: #010101;*/
+    /*background-color: blue;*/
+    z-index: 5;    
 }
 
 .jaguar{
     object-fit: contain;
-    object-position: -130px center;
-    height: 500px;
+    object-position: -120px center;
+    height: 460px;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+.menu-header {
+    font-family: Westhouse, Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: black;
+    padding: 0;
+    margin: 0;
+    line-height: 100px;
+}
+
+.sub-title{
+    /*WORKING*/
+
+    font-family: subtitle;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    color: cornsilk;
+    font-size: 40px;
+}
+
+
+.precio{
+    font-family:price;
+    color: #c1a216;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.precio p {
+    margin: 0px;
+}
+.description {
+    font-family: description;
+    color: cornsilk;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    overflow-y: hidden;
+}
+
+.img-carousel {
+    max-height: 80vh !important;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:100vh;
+    width:100%;
+    overflow-x: hidden;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:100vh;
+    width:100%;;
 }
