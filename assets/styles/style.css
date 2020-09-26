@@ -1,0 +1,28 @@
+.body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    color: rgba(209, 204, 204, 0.877);
+}
+
+.white-color{
+    color: white;
+}
+.mapouter {
+    height: 80vh;
+    width: 100%;
+}
+
+.gmap_canvas {
+    height: 80vh;
+    width: 100%;
+}
+
+.bgc-black {
+    background-color: #010101;
+}
+
+.jaguar{
+    object-fit: contain;
+    object-position: -130px center;
+    height: 500px;
+}
