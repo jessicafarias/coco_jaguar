@@ -48,9 +48,16 @@
     line-height: 100px;
 }
 
-.sub-title{
-    /*WORKING*/
 
+.img-palmer-r {
+    object-fit: contain;
+    width: 120px;
+}
+.img-palmer-l {
+    object-fit: contain;
+    width: 120px;
+}
+.sub-title{
     font-family: subtitle;
     text-align: center;
     margin: auto;
@@ -71,14 +78,20 @@
 .precio p {
     margin: 0px;
 }
+
+.try {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+}
 .description {
     font-family: description;
     color: cornsilk;
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    line-height: 15px;
-    margin-bottom: 10px;
+    font-size: 23px;
+    line-height: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 25px;
     overflow-y: hidden;
 }
 
