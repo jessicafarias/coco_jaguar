@@ -1,5 +1,5 @@
 .body {
-    background-image: url("../images/background.png");
+    background-color: black;
     background-size: 100%;
     width: 100%;}
 
@@ -26,6 +26,7 @@
     object-fit: contain;
     object-position: -120px center;
     height: 460px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
@@ -66,7 +67,7 @@
     text-align: center;
     margin: auto;
     margin-top: 30px;
-    color: cornsilk;
+    color: #c1a216;
     font-size: 40px;
 }
 
@@ -74,20 +75,24 @@
     font-family: subtitle; 
     text-align: center !important;
     margin: auto;
-    color: cornsilk;
+    color: #c1a216;
     font-size: 35px;
 }
 
 .precio{
     font-family:price;
-    color: #c1a216;
-    font-size: 30px;
+    color: white;
+    font-size: 24px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .precio p {
     margin: 0px;
+}
+
+.jaguar{
+    color: #c1a216;
 }
 
 .try {
