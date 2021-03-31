@@ -1,0 +1,37 @@
+{
+  "name": "coco_jaguar",
+  "version": "1.0.0",
+  "description": "CocoJaguar restaurant  html and css project",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "start": "webpack serve --hot --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicafarias/coco_jaguar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessicafarias/coco_jaguar/issues"
+  },
+  "homepage": "https://github.com/jessicafarias/coco_jaguar#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "@hot-loader/react-dom": "^17.0.1",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
