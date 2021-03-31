@@ -1,9 +1,11 @@
+import Header from "./Header";
+
 function App() {
   return (
-    <div className="App">
-      <div>
-        <p>asasas</p>
+    <div>
+      <div className="App">
       </div>
+      <Header />
     </div>
   );
 }
