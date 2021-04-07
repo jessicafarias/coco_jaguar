@@ -1,6 +1,7 @@
 html {
   overflow-x: hidden;
 }
+
 @import "../css/fonts.css";
 
 .p-5 {
@@ -310,10 +311,12 @@ html {
 .image-size-cover {
   width: 100%;
 }
+
 .image-size-cover img {
   object-fit: cover;
   object-position: center center;
 }
+
 .image-size-cover div img {
   object-fit: cover;
   object-position: center center;
@@ -379,26 +382,31 @@ html {
     order: 1;
   }
 }
+
 @media screen and (max-width: 768px) and (min-width: 3px) {
   .order-sm-1 {
     order: 1;
   }
 }
+
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .order-md-1 {
     order: 1;
   }
 }
+
 @media screen and (max-width: 2300px) and (min-width: 1024px) {
   .order-lg-1 {
     order: 1;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .order-xl-1 {
     order: 1;
   }
 }
+
 .order-2 {
   order: 2;
 }
@@ -408,26 +416,31 @@ html {
     order: 2;
   }
 }
+
 @media screen and (max-width: 768px) and (min-width: 3px) {
   .order-sm-2 {
     order: 2;
   }
 }
+
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .order-md-2 {
     order: 2;
   }
 }
+
 @media screen and (max-width: 2300px) and (min-width: 1024px) {
   .order-lg-2 {
     order: 2;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .order-xl-2 {
     order: 2;
   }
 }
+
 .order-3 {
   order: 3;
 }
@@ -437,22 +450,24 @@ html {
     order: 3;
   }
 }
+
 @media screen and (max-width: 768px) and (min-width: 3px) {
   .order-sm-3 {
     order: 3;
   }
 }
+
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .order-md-3 {
     order: 3;
   }
 }
 
-
 .list h5 {
   font-size: 23px;
   font-weight: bold;
 }
+
 .list ul li {
   font-size: 1.1875em;
   padding: 10px;
@@ -480,6 +495,7 @@ html {
   display: flex;
   flex-direction: column;
 }
+
 .form .item {
   width: 150px;
   height: 20px;
@@ -491,12 +507,14 @@ html {
   justify-content: space-between;
   align-items: center;
 }
+
 .navbar .container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
 }
+
 .navbar .item a {
   color: black !important;
   margin: 10px;
@@ -512,6 +530,7 @@ html {
     align-items: center;
     padding: 10px;
   }
+
   .navbar .container {
     display: flex;
     flex-flow: row wrap-reverse;
@@ -519,6 +538,7 @@ html {
     justify-content: center;
     align-items: center;
   }
+
   .navbar .item {
     margin: 1px;
     padding: 10px;
@@ -530,11 +550,15 @@ html {
   overflow-x: hidden;
 }
 
-.bgc-yellow, .button-yellow-lg, .btton-yellow-md, .btton-yellow-sm {
+.bgc-yellow,
+.button-yellow-lg,
+.btton-yellow-md,
+.btton-yellow-sm {
   background-color: #ffe11e;
 }
 
-.bgc-blue, .button-blue-lg {
+.bgc-blue,
+.button-blue-lg {
   background-color: #498cf3;
 }
 
@@ -547,7 +571,8 @@ html {
   color: white;
 }
 
-.bgc-gray, .info {
+.bgc-gray,
+.info {
   background-color: #f3f3f3;
 }
 
@@ -562,6 +587,7 @@ html {
     color: white;
   }
 }
+
 @media screen and (max-width: 768px) and (min-width: 3px) {
   .bgc-sm-yellow {
     background-color: #fdd048;
@@ -573,6 +599,7 @@ html {
     color: white;
   }
 }
+
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .bgc-md-yellow {
     background-color: #fdd048;
@@ -584,6 +611,7 @@ html {
     color: white;
   }
 }
+
 @media screen and (max-width: 2300px) and (min-width: 1024px) {
   .bgc-lg-yellow {
     background-color: #fdd048;
@@ -594,6 +622,7 @@ html {
     color: white;
   }
 }
+
 .yellow {
   color: #fdd048;
 }
@@ -610,7 +639,11 @@ html {
   color: #383838;
 }
 
-.b, .button-yellow-lg, .button-blue-lg, .btton-yellow-md, .btton-yellow-sm {
+.b,
+.button-yellow-lg,
+.button-blue-lg,
+.btton-yellow-md,
+.btton-yellow-sm {
   font-weight: bold;
 }
 
@@ -618,14 +651,26 @@ html {
   font-style: italic;
 }
 
-.paragraph, .questions h5, .info-video p, .info-video h2, .info-lg p, .info-lg h3, .info p, .info h2 {
+.paragraph,
+.questions h5,
+.info-video p,
+.info-video h2,
+.info-lg p,
+.info-lg h3,
+.info p,
+.info h2 {
   text-align: justify;
   width: 90%;
   padding: 1em;
   margin: 5% auto;
 }
 
-.header, .questions p, .questions h5, .info-video h2, .info-lg h3, .info h2 {
+.header,
+.questions p,
+.questions h5,
+.info-video h2,
+.info-lg h3,
+.info h2 {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -635,6 +680,7 @@ html {
 .info h2 {
   font-size: 2.625em;
 }
+
 .info p {
   font-size: 1.562em;
 }
@@ -642,6 +688,7 @@ html {
 .info-lg h3 {
   font-size: 2rem;
 }
+
 .info-lg p {
   font-size: 1.31rem;
 }
@@ -650,6 +697,7 @@ html {
   font-size: 1.75rem;
   color: white;
 }
+
 .info-video p {
   font-size: 1rem;
   color: white;
@@ -658,6 +706,7 @@ html {
 .questions h5 {
   font-size: 2.876rem;
 }
+
 .questions p {
   background: white;
   font-size: 1.625rem;
@@ -671,78 +720,91 @@ html {
   height: auto;
   overflow: hidden;
 }
+
 .relative-space .center {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, 0%);
 }
+
 .relative-space .top-2 {
   position: absolute;
   top: 0%;
   left: 2%;
   transform: translate(-50%, 0%);
 }
+
 .relative-space .bottom-2 {
   position: absolute;
   top: 100%;
   left: 2%;
   transform: translate(-50%, -100%);
 }
+
 .relative-space .center-2 {
   position: absolute;
   top: 50%;
   left: 2%;
   transform: translate(-50%, -50%);
 }
+
 .relative-space .top-4 {
   position: absolute;
   top: 0%;
   left: 4%;
   transform: translate(-50%, 0%);
 }
+
 .relative-space .bottom-4 {
   position: absolute;
   top: 100%;
   left: 4%;
   transform: translate(-50%, -100%);
 }
+
 .relative-space .center-4 {
   position: absolute;
   top: 50%;
   left: 4%;
   transform: translate(-50%, -50%);
 }
+
 .relative-space .top-6 {
   position: absolute;
   top: 0%;
   left: 6%;
   transform: translate(-50%, 0%);
 }
+
 .relative-space .bottom-6 {
   position: absolute;
   top: 100%;
   left: 6%;
   transform: translate(-50%, -100%);
 }
+
 .relative-space .bottom-14 {
   position: absolute;
   top: 100%;
   left: 14%;
   transform: translate(-50%, -100%);
 }
+
 .relative-space .top-50 {
   position: absolute;
   top: 0%;
   left: 50%;
   transform: translate(-50%, 0%);
 }
+
 .relative-space .bottom-50 {
   position: absolute;
   top: 100%;
   left: 50%;
   transform: translate(-50%, -100%);
 }
+
 .relative-space .center-50 {
   position: absolute;
   top: 50%;
@@ -756,126 +818,147 @@ html {
   left: 62%;
   transform: translate(-50%, 0%);
 }
+
 .relative-space .bottom-62 {
   position: absolute;
   top: 100%;
   left: 62%;
   transform: translate(-50%, -100%);
 }
+
 .relative-space .bottom-88 {
   position: absolute;
   top: 100%;
   left: 88%;
   transform: translate(-50%, -100%);
 }
+
 .relative-space .center-88 {
   position: absolute;
   top: 50%;
   left: 88%;
   transform: translate(-50%, -50%);
 }
+
 .relative-space .top-90 {
   position: absolute;
   top: 0%;
   left: 90%;
   transform: translate(-50%, 0%);
 }
+
 .relative-space .bottom-90 {
   position: absolute;
   top: 100%;
   left: 90%;
   transform: translate(-50%, -100%);
 }
+
 .relative-space .center-90 {
   position: absolute;
   top: 50%;
   left: 90%;
   transform: translate(-50%, -50%);
 }
+
 .relative-space .top-92 {
   position: absolute;
   top: 0%;
   left: 92%;
   transform: translate(-50%, 0%);
 }
+
 .relative-space .bottom-92 {
   position: absolute;
   top: 100%;
   left: 92%;
   transform: translate(-50%, -100%);
 }
+
 .relative-space .center-92 {
   position: absolute;
   top: 50%;
   left: 92%;
   transform: translate(-50%, -50%);
 }
+
 .relative-space .top-94 {
   position: absolute;
   top: 0%;
   left: 94%;
   transform: translate(-50%, 0%);
 }
+
 .relative-space .bottom-94 {
   position: absolute;
   top: 100%;
   left: 94%;
   transform: translate(-50%, -100%);
 }
+
 .relative-space .center-94 {
   position: absolute;
   top: 50%;
   left: 94%;
   transform: translate(-50%, -50%);
 }
+
 .relative-space .top-96 {
   position: absolute;
   top: 0%;
   left: 96%;
   transform: translate(-50%, 0%);
 }
+
 .relative-space .bottom-96 {
   position: absolute;
   top: 100%;
   left: 96%;
   transform: translate(-50%, -100%);
 }
+
 .relative-space .center-96 {
   position: absolute;
   top: 50%;
   left: 96%;
   transform: translate(-50%, -50%);
 }
+
 .relative-space .top-98 {
   position: absolute;
   top: 0%;
   left: 98%;
   transform: translate(-50%, 0%);
 }
+
 .relative-space .bottom-98 {
   position: absolute;
   top: 100%;
   left: 98%;
   transform: translate(-50%, -100%);
 }
+
 .relative-space .center-98 {
   position: absolute;
   top: 50%;
   left: 98%;
   transform: translate(-50%, -50%);
 }
+
 .relative-space .top-100 {
   position: absolute;
   top: 0%;
   left: 100%;
   transform: translate(-50%, 0%);
 }
+
 .relative-space .bottom-100 {
   position: absolute;
   top: 100%;
   left: 100%;
   transform: translate(-50%, -100%);
 }
+
 .relative-space .center-100 {
   position: absolute;
   top: 50%;
@@ -994,5 +1077,3 @@ html {
 h1 {
   display: none;
 }
-
-/*# sourceMappingURL=styles.css.map */

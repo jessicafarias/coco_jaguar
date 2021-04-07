@@ -23,7 +23,7 @@ const EntradasList = [
     id: 3,
     description: 'Papas a la francesa con queso',
     price: 90,
-  }
-]
+  },
+];
 
 export default EntradasList;

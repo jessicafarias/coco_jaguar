@@ -1,6 +1,7 @@
 body {
   background-color: black !important;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,17 +12,16 @@ body {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 @font-face {
   font-family: 'price';
   src: url(../styles/fonts/AGENCYR.TTF);
-  font-size: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'subtitle';
   src: url(../styles/fonts/subtitle.ttf);
-  font-size: normal;
   font-weight: normal;
 }
 
@@ -44,37 +44,37 @@ body {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-
-
-.white-color{
+.white-color {
   color: white;
 }
-.mapouter {
-  height: 80vh;
-  width: 100%;
-}
 
-.gmap_canvas {
-  height: 80vh;
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 100vh;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .bgc-black {
-  /*background-color: #010101;*/
-  /*background-color: blue;*/
-  z-index: 5;    
+  /* background-color: #010101; */
+
+  /* background-color: blue; */
+  z-index: 5;
 }
 
-.jaguar{
+.jaguar {
   object-fit: contain;
   object-position: -120px center;
   height: 460px;
   font-family: Arial, Helvetica, sans-serif;
+  color: #c1a216;
 }
 
 .navbar {
@@ -89,7 +89,7 @@ body {
 }
 
 .menu-header {
-  font-family: Westhouse , Arial, Helvetica, sans-serif;
+  font-family: Westhouse, Arial, Helvetica, sans-serif;
   font-size: 50px;
   color: black;
   padding: 0;
@@ -98,20 +98,22 @@ body {
   overflow: hidden;
 }
 
-
-.hov-ed:hover{
+.hov-ed:hover {
   background-color: chocolate;
 }
+
 .img-palmer-r {
   object-fit: contain;
   width: 120px;
 }
+
 .img-palmer-l {
   object-fit: contain;
   width: 120px;
 }
-.sub-title{
-  font-family: subtitle;
+
+.sub-title {
+  font-family: subtitle, Arial, Helvetica, sans-serif;
   text-align: center;
   margin: auto;
   margin-top: 30px;
@@ -119,16 +121,16 @@ body {
   font-size: 40px;
 }
 
-.sub-title2{
-  font-family: subtitle; 
+.sub-title2 {
+  font-family: subtitle, Arial, Helvetica, sans-serif;
   text-align: center !important;
   margin: auto;
   color: #c1a216;
   font-size: 35px;
 }
 
-.precio{
-  font-family:price;
+.precio {
+  font-family: price, Arial, Helvetica, sans-serif;
   color: white;
   font-size: 24px;
   padding-left: 20px;
@@ -136,11 +138,7 @@ body {
 }
 
 .precio p {
-  margin: 0px;
-}
-
-.jaguar{
-  color: #c1a216;
+  margin: 0;
 }
 
 .try {
@@ -148,8 +146,9 @@ body {
   justify-content: flex-start;
   align-content: flex-end;
 }
+
 .description {
-  font-family: description;
+  font-family: description, Arial, Helvetica, sans-serif;
   color: cornsilk;
   font-size: 23px;
   line-height: 24px;
@@ -165,16 +164,10 @@ body {
   object-fit: cover;
   object-position: center center;
 }
-.mapouter{
-  position:relative;
-  text-align:right;
-  height:100vh;
-  width:100%;
-  overflow-x: hidden;
-}
+
 .gmap_canvas {
-  overflow:hidden;
-  background:none!important;
-  height:100vh;
-  width:100%;;
+  overflow: hidden;
+  background: none !important;
+  height: 100vh;
+  width: 100%;
 }
