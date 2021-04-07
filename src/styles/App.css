@@ -1,0 +1,173 @@
+body {
+  background-color: black !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@font-face {
+  font-family: 'price';
+  src: url(../styles/fonts/AGENCYR.TTF);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'subtitle';
+  src: url(../styles/fonts/subtitle.ttf);
+  font-weight: normal;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.white-color {
+  color: white;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.bgc-black {
+  /* background-color: #010101; */
+
+  /* background-color: blue; */
+  z-index: 5;
+}
+
+.jaguar {
+  object-fit: contain;
+  object-position: -120px center;
+  height: 460px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c1a216;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu-header {
+  font-family: Westhouse, Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: black;
+  padding: 0;
+  margin: 0;
+  line-height: 35px;
+  overflow: hidden;
+}
+
+.hov-ed:hover {
+  background-color: chocolate;
+}
+
+.img-palmer-r {
+  object-fit: contain;
+  width: 120px;
+}
+
+.img-palmer-l {
+  object-fit: contain;
+  width: 120px;
+}
+
+.sub-title {
+  font-family: subtitle, Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  color: #c1a216;
+  font-size: 40px;
+}
+
+.sub-title2 {
+  font-family: subtitle, Arial, Helvetica, sans-serif;
+  text-align: center !important;
+  margin: auto;
+  color: #c1a216;
+  font-size: 35px;
+}
+
+.precio {
+  font-family: price, Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.precio p {
+  margin: 0;
+}
+
+.try {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+
+.description {
+  font-family: description, Arial, Helvetica, sans-serif;
+  color: cornsilk;
+  font-size: 23px;
+  line-height: 24px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+  overflow-y: hidden;
+}
+
+.img-carousel {
+  max-height: 80vh !important;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100vh;
+  width: 100%;
+}
