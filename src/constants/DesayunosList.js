@@ -78,6 +78,13 @@ const DesayunosList = [
     print2: '',
   },
   {
+    id: 21,
+    description: 'Huevos rancheros con chorizo',
+    price: 125,
+    print1: '',
+    print2: '',
+  },
+  {
     id: 12,
     description: 'Omellet al gusto. Ingredientes: jamón, tocino, salchicha o chizo, champiñones, tomate o cebolla.',
     price: 135,
